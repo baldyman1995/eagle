@@ -1245,12 +1245,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="S1">
 <contactref element="U1" pad="5"/>
+<contactref element="SOCKET_RIGHT" pad="12"/>
 <via x="169.5" y="112.3" extent="1-16" drill="0.35"/>
 <wire x1="169.5" y1="112.3" x2="172.295" y2="112.3" width="0.762" layer="1"/>
 <wire x1="172.295" y1="112.3" x2="172.3" y2="112.305" width="0.762" layer="1"/>
-<contactref element="SOCKET_RIGHT" pad="10"/>
-<wire x1="156.17" y1="98.97" x2="141.27" y2="98.97" width="0.762" layer="16"/>
-<wire x1="169.5" y1="112.3" x2="156.17" y2="98.97" width="0.762" layer="16"/>
+<wire x1="169.5" y1="112.3" x2="157.2" y2="100" width="0.762" layer="16"/>
+<wire x1="157.2" y1="100" x2="150" y2="100" width="0.762" layer="16"/>
+<wire x1="150" y1="100" x2="146.43" y2="96.43" width="0.762" layer="16"/>
+<wire x1="146.43" y1="96.43" x2="141.27" y2="96.43" width="0.762" layer="16"/>
 </signal>
 <signal name="S2">
 <contactref element="U2" pad="5"/>

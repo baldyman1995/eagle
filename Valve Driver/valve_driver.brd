@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -51,7 +51,7 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -143,7 +143,7 @@
 <layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
@@ -1660,120 +1660,55 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 </package>
 </packages>
 </library>
-<library name="mylib">
+<library name="con-jack" urn="urn:adsk.eagle:library:154">
+<description>&lt;b&gt;Jacks&lt;/b&gt;&lt;p&gt;
+Power Connectors&lt;br&gt;
+Phone Connectors&lt;br&gt;
+Cinch Connectors&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="69410X301002" urn="urn:adsk.eagle:footprint:3359582/1" locally_modified="yes">
-<description>&lt;b&gt;694106301002&lt;/b&gt;&lt;p&gt;WR-DC_DC Power Jack_Right Angled_THT Center Pin ?2.0_Plug ID ?2.05_Plug OD ?5.5</description>
-<wire x1="0.19985" y1="4.50001875" x2="0.000003125" y2="4.299821875" width="0.2" layer="21" curve="97.0981"/>
-<wire x1="-0.00001875" y1="-4.300140625" x2="0.2" y2="-4.5" width="0.2" layer="21" curve="97.0429"/>
-<wire x1="0.2" y1="-4.5" x2="0.200178125" y2="-4.4999875" width="0.2" layer="21" curve="0.054215"/>
-<wire x1="14.5" y1="4.5" x2="0.2" y2="4.5" width="0.2" layer="21"/>
-<wire x1="14.5" y1="-4.5" x2="12.7" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="14.5" y1="4.5" x2="14.5" y2="2.2" width="0.2" layer="21"/>
-<wire x1="0" y1="4.3" x2="0" y2="-4.3" width="0.2" layer="21"/>
-<wire x1="8.3" y1="-4.5" x2="0.2" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="14.5" y1="-2.2" x2="14.5" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="13.2" y1="1.5" x2="13.2" y2="-1.5" width="0.1" layer="46"/>
-<wire x1="14" y1="-1.5" x2="14" y2="1.5" width="0.1" layer="46"/>
-<wire x1="7.4" y1="1.5" x2="7.4" y2="-1.5" width="0.1" layer="46"/>
-<wire x1="8.2" y1="-1.5" x2="8.2" y2="1.5" width="0.1" layer="46"/>
-<wire x1="9.1" y1="-5.2" x2="12.1" y2="-5.2" width="0.1" layer="46"/>
-<wire x1="12.1" y1="-4.4" x2="9.1" y2="-4.4" width="0.1" layer="46"/>
-<wire x1="9.1" y1="-4.4" x2="9.1" y2="-5.2" width="0.1" layer="46"/>
-<wire x1="12.1" y1="-4.4" x2="12.1" y2="-5.2" width="0.1" layer="46"/>
-<wire x1="7.4" y1="-1.5" x2="8.2" y2="-1.5" width="0.1" layer="46"/>
-<wire x1="8.2" y1="-1.5" x2="8.2" y2="-1.6" width="0.01" layer="46"/>
-<wire x1="7.4" y1="1.5" x2="8.2" y2="1.5" width="0.1" layer="46"/>
-<wire x1="13.2" y1="1.5" x2="14" y2="1.5" width="0.1" layer="46"/>
-<wire x1="13.2" y1="-1.5" x2="14" y2="-1.5" width="0.1" layer="46"/>
-<pad name="2" x="7.8" y="0" drill="0.9" diameter="2.5" shape="long" rot="R270"/>
-<pad name="1" x="13.6" y="0" drill="0.9" diameter="2.5" shape="long" rot="R90"/>
-<pad name="3" x="10.6" y="-4.8" drill="0.9" diameter="2.5" shape="long" rot="R180"/>
-<text x="3.7" y="5.7056" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
-<text x="2.6" y="-9.6484" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
-<text x="1.135" y="-2.375" size="0.8128" layer="51" rot="R90">PCB Edge</text>
-<text x="10.1" y="-3.5" size="1.27" layer="21">3</text>
-<text x="11.4" y="-0.7" size="1.27" layer="21">1</text>
-<text x="5.7" y="-0.6" size="1.27" layer="21">2</text>
-<polygon width="0.127" layer="39">
-<vertex x="14.85" y="-6"/>
-<vertex x="-0.15" y="-6"/>
-<vertex x="-0.15" y="4.75"/>
-<vertex x="14.85" y="4.75"/>
-</polygon>
-<hole x="10.7" y="-4.8" drill="0.9"/>
-<hole x="10.8" y="-4.8" drill="0.9"/>
-<hole x="10.9" y="-4.8" drill="0.9"/>
-<hole x="11" y="-4.8" drill="0.9"/>
-<hole x="11.1" y="-4.8" drill="0.9"/>
-<hole x="11.2" y="-4.8" drill="0.9"/>
-<hole x="11.3" y="-4.8" drill="0.9"/>
-<hole x="11.4" y="-4.8" drill="0.9"/>
-<hole x="11.5" y="-4.8" drill="0.9"/>
-<hole x="11.6" y="-4.8" drill="0.9"/>
-<hole x="11.7" y="-4.8" drill="0.9"/>
-<hole x="10.5" y="-4.8" drill="0.9"/>
-<hole x="10.4" y="-4.8" drill="0.9"/>
-<hole x="10.3" y="-4.8" drill="0.9"/>
-<hole x="10.2" y="-4.8" drill="0.9"/>
-<hole x="10.1" y="-4.8" drill="0.9"/>
-<hole x="10" y="-4.8" drill="0.9"/>
-<hole x="9.9" y="-4.8" drill="0.9"/>
-<hole x="9.8" y="-4.8" drill="0.9"/>
-<hole x="9.7" y="-4.8" drill="0.9"/>
-<hole x="9.6" y="-4.8" drill="0.9"/>
-<hole x="9.5" y="-4.8" drill="0.9"/>
-<hole x="13.6" y="-0.1" drill="0.9"/>
-<hole x="13.6" y="-0.2" drill="0.9"/>
-<hole x="13.6" y="-0.3" drill="0.9"/>
-<hole x="13.6" y="-0.4" drill="0.9"/>
-<hole x="13.6" y="-0.5" drill="0.9"/>
-<hole x="13.6" y="-0.6" drill="0.9"/>
-<hole x="13.6" y="-0.7" drill="0.9"/>
-<hole x="13.6" y="-0.8" drill="0.9"/>
-<hole x="13.6" y="-0.9" drill="0.9"/>
-<hole x="13.6" y="-1" drill="0.9"/>
-<hole x="13.6" y="-1.1" drill="0.9"/>
-<hole x="13.6" y="0.1" drill="0.9"/>
-<hole x="13.6" y="0.2" drill="0.9"/>
-<hole x="13.6" y="0.3" drill="0.9"/>
-<hole x="13.6" y="0.4" drill="0.9"/>
-<hole x="13.6" y="0.5" drill="0.9"/>
-<hole x="13.6" y="0.6" drill="0.9"/>
-<hole x="13.6" y="0.7" drill="0.9"/>
-<hole x="13.6" y="0.8" drill="0.9"/>
-<hole x="13.6" y="0.9" drill="0.9"/>
-<hole x="13.6" y="1" drill="0.9"/>
-<hole x="13.6" y="1.1" drill="0.9"/>
-<hole x="7.8" y="-0.1" drill="0.9"/>
-<hole x="7.8" y="-0.2" drill="0.9"/>
-<hole x="7.8" y="-0.3" drill="0.9"/>
-<hole x="7.8" y="-0.4" drill="0.9"/>
-<hole x="7.8" y="-0.5" drill="0.9"/>
-<hole x="7.8" y="-0.6" drill="0.9"/>
-<hole x="7.8" y="-0.7" drill="0.9"/>
-<hole x="7.8" y="-0.8" drill="0.9"/>
-<hole x="7.8" y="-0.9" drill="0.9"/>
-<hole x="7.8" y="-1" drill="0.9"/>
-<hole x="7.8" y="-1.1" drill="0.9"/>
-<hole x="7.8" y="0.5" drill="0.9"/>
-<hole x="7.8" y="0.1" drill="0.9"/>
-<hole x="7.8" y="0.2" drill="0.9"/>
-<hole x="7.8" y="0.3" drill="0.9"/>
-<hole x="7.8" y="0.4" drill="0.9"/>
-<hole x="7.8" y="0.6" drill="0.9"/>
-<hole x="7.8" y="0.7" drill="0.9"/>
-<hole x="7.8" y="0.8" drill="0.9"/>
-<hole x="7.8" y="0.9" drill="0.9"/>
-<hole x="7.8" y="1" drill="0.9"/>
-<hole x="7.8" y="1.1" drill="0.9"/>
+<package name="DCJ0202" urn="urn:adsk.eagle:footprint:7486/1" library_version="1">
+<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
+Source: DCJ0202.pdf</description>
+<wire x1="1.65" y1="2.6" x2="-1.65" y2="2.6" width="0" layer="46"/>
+<wire x1="-1.65" y1="2.6" x2="-1.65" y2="3.6" width="0" layer="46"/>
+<wire x1="-1.65" y1="3.6" x2="1.65" y2="3.6" width="0" layer="46"/>
+<wire x1="1.65" y1="3.6" x2="1.65" y2="2.6" width="0" layer="46"/>
+<wire x1="5.3" y1="1.4" x2="4.3" y2="1.4" width="0" layer="46"/>
+<wire x1="4.3" y1="1.4" x2="4.3" y2="-1.4" width="0" layer="46"/>
+<wire x1="4.3" y1="-1.4" x2="5.3" y2="-1.4" width="0" layer="46"/>
+<wire x1="5.3" y1="-1.4" x2="5.3" y2="1.4" width="0" layer="46"/>
+<wire x1="1.4" y1="-3.5" x2="-1.4" y2="-3.5" width="0" layer="46"/>
+<wire x1="-1.4" y1="-3.5" x2="-1.4" y2="-2.5" width="0" layer="46"/>
+<wire x1="-1.4" y1="-2.5" x2="1.4" y2="-2.5" width="0" layer="46"/>
+<wire x1="1.4" y1="-2.5" x2="1.4" y2="-3.5" width="0" layer="46"/>
+<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="4.3" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-2.7" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="3.9" x2="2.7" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="-0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="0.9" y1="-9" x2="0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="51" curve="166.57811"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.45" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="2.3" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="3.1" drill="1" diameter="2" shape="long" rot="R180"/>
+<pad name="3" x="0" y="-3" drill="1" diameter="2" shape="long" rot="R180"/>
+<pad name="2" x="4.8" y="0" drill="1" diameter="2" shape="long" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="69410X301002" urn="urn:adsk.eagle:package:3359594/1" locally_modified="yes" type="box">
-<description>&lt;b&gt;694106301002&lt;/b&gt;&lt;p&gt;WR-DC_DC Power Jack_Right Angled_THT Center Pin ?2.0_Plug ID ?2.05_Plug OD ?5.5</description>
+<package3d name="DCJ0202" urn="urn:adsk.eagle:package:7491/1" type="box" library_version="1">
+<description>DC POWER JACK
+Source: DCJ0202.pdf</description>
 <packageinstances>
-<packageinstance name="69410X301002"/>
+<packageinstance name="DCJ0202"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2005,7 +1940,12 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="66.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="66.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SUP_12V" library="mylib" package="69410X301002" package3d_urn="urn:adsk.eagle:package:3359594/1" value="" x="67" y="80" rot="R270"/>
+<element name="SUP_12V" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="DCJ0202" package3d_urn="urn:adsk.eagle:package:7491/1" value="DCJ0202" x="71" y="69" rot="R180">
+<attribute name="MF" value="" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="VALVE_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="43" y="45" rot="R180"/>
 <element name="VALVE_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="43" y="29"/>
 </elements>
@@ -2025,20 +1965,9 @@ design rules under a new name.</description>
 <polygon width="0.762" layer="1">
 <vertex x="-1.75" y="81"/>
 <vertex x="-1.75" y="-3"/>
-<vertex x="82.5" y="-3"/>
-<vertex x="82.5" y="81"/>
+<vertex x="117.5" y="-3"/>
+<vertex x="117.5" y="81"/>
 </polygon>
-<polygon width="0.762" layer="16">
-<vertex x="-5" y="83"/>
-<vertex x="-5" y="-6"/>
-<vertex x="85" y="-6"/>
-<vertex x="85" y="83"/>
-</polygon>
-<via x="75.5" y="44.5" extent="1-16" drill="0.508"/>
-<via x="59.5" y="75" extent="1-16" drill="0.508"/>
-<via x="62" y="49.5" extent="1-16" drill="0.508"/>
-<via x="14.5" y="28" extent="1-16" drill="0.508"/>
-<via x="14" y="73.5" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="VCCL">
 <contactref element="LINEAR_R" pad="3"/>
@@ -2048,7 +1977,7 @@ design rules under a new name.</description>
 <wire x1="15.46" y1="43.54" x2="7" y2="43.54" width="0.762" layer="1"/>
 <wire x1="7" y1="43.54" x2="7" y2="58.46" width="0.762" layer="1"/>
 <wire x1="7" y1="58.46" x2="7.27" y2="58.73" width="0.762" layer="1"/>
-<wire x1="4.73" y1="58.73" x2="7.27" y2="58.73" width="0.762" layer="1"/>
+<wire x1="7" y1="58.46" x2="4.73" y2="58.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COM2">
 <contactref element="UNL2803A_O" pad="10"/>
@@ -2114,14 +2043,11 @@ design rules under a new name.</description>
 <wire x1="33.92" y1="43.54" x2="34.11" y2="43.73" width="0.762" layer="1"/>
 <wire x1="28" y1="43.54" x2="20.54" y2="43.54" width="0.762" layer="1"/>
 <wire x1="18" y1="66.08" x2="25.92" y2="74" width="0.762" layer="1"/>
+<wire x1="61.1" y1="65.9" x2="71" y2="65.9" width="0.762" layer="1"/>
 <wire x1="25.92" y1="74" x2="53" y2="74" width="0.762" layer="1"/>
-<wire x1="51.89" y1="43.73" x2="67" y2="58.84" width="0.762" layer="1"/>
-<wire x1="67" y1="58.84" x2="67" y2="66.4" width="0.762" layer="1"/>
-<wire x1="53" y1="74" x2="56" y2="71" width="0.762" layer="1"/>
-<wire x1="56" y1="67.8" x2="58" y2="65.8" width="0.762" layer="1"/>
-<wire x1="58" y1="65.8" x2="66.4" y2="65.8" width="0.762" layer="1"/>
-<wire x1="66.4" y1="65.8" x2="67" y2="66.4" width="0.762" layer="1"/>
-<wire x1="56" y1="71" x2="56" y2="67.8" width="0.762" layer="1"/>
+<wire x1="53" y1="74" x2="61.1" y2="65.9" width="0.762" layer="1"/>
+<wire x1="71" y1="65.9" x2="71" y2="62.84" width="0.762" layer="1"/>
+<wire x1="71" y1="62.84" x2="51.89" y2="43.73" width="0.762" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="UNL2803A_O" pad="11"/>

@@ -4054,19 +4054,18 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <wire x1="139.7" y1="7.62" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
 <junction x="139.7" y="20.32"/>
 <wire x1="53.34" y1="111.76" x2="34.29" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="34.29" y1="111.76" x2="34.29" y2="61.0108" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="111.76" x2="34.29" y2="60.9854" width="0.1524" layer="91"/>
 <junction x="53.34" y="111.76"/>
 <junction x="34.29" y="20.32"/>
-<wire x1="34.29" y1="61.0108" x2="34.29" y2="60.9854" width="0.1524" layer="91"/>
-<wire x1="34.29" y1="60.9854" x2="34.29" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SOCKET_LEFT" gate="A" pin="23"/>
+<wire x1="34.29" y1="60.9854" x2="34.29" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="60.96" x2="34.29" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SOCKET_LEFT" gate="A" pin="24"/>
+<wire x1="172.72" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<junction x="172.72" y="60.96"/>
 <label x="154.94" y="71.12" size="1.778" layer="95"/>
 <junction x="34.29" y="60.9854"/>
-<wire x1="34.29" y1="61.0108" x2="164.3634" y2="61.0108" width="0.1524" layer="91"/>
-<wire x1="164.3634" y1="61.0108" x2="164.3634" y2="63.881" width="0.1524" layer="91"/>
-<junction x="34.29" y="61.0108"/>
-<pinref part="SOCKET_LEFT" gate="A" pin="21"/>
-<wire x1="164.3634" y1="63.881" x2="172.72" y2="63.881" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="63.881" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SERIAL" gate="A" pin="2"/>
