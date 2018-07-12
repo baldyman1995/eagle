@@ -7859,8 +7859,13 @@ Source: DCJ0202.pdf</description>
 <attribute name="MPN" x="81.28" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="101.6" y="226.06" rot="R180"/>
+<<<<<<< HEAD
 <instance part="SGN_O" gate="A" x="50.8" y="78.74" rot="R180"/>
 <instance part="SGN_A" gate="A" x="53.34" y="195.58" rot="R180"/>
+=======
+<instance part="SGN_O" gate="A" x="116.84" y="76.2"/>
+<instance part="SGN_A" gate="A" x="116.84" y="193.04"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <instance part="BYPASSC_A" gate="G$1" x="83.82" y="223.52" rot="R270">
 <attribute name="OC_NEWARK" x="83.82" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MF" x="83.82" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
@@ -7881,14 +7886,20 @@ Source: DCJ0202.pdf</description>
 <attribute name="MPN" x="55.88" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUP_12V" gate="G$1" x="167.64" y="185.42"/>
+<<<<<<< HEAD
 <instance part="VALVE_A" gate="A" x="127" y="195.58"/>
 <instance part="VALVE_O" gate="A" x="124.46" y="78.74"/>
+=======
+<instance part="VALVE_A" gate="A" x="45.72" y="193.04" rot="R180"/>
+<instance part="VALVE_O" gate="A" x="43.18" y="76.2" rot="R180"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <instance part="GND1" gate="1" x="144.78" y="132.08"/>
 <instance part="GND3" gate="1" x="104.14" y="101.6" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<<<<<<< HEAD
 <net name="N$2" class="0">
 <segment>
 <pinref part="SGN_O" gate="A" pin="7"/>
@@ -7945,6 +7956,8 @@ Source: DCJ0202.pdf</description>
 <pinref part="SGN_A" gate="A" pin="5"/>
 </segment>
 </net>
+=======
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <net name="GND" class="0">
 <segment>
 <pinref part="UNL2803A_A" gate="G$1" pin="GND"/>
@@ -7994,27 +8007,6 @@ Source: DCJ0202.pdf</description>
 <label x="111.76" y="96.52" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="O1"/>
-<pinref part="SGN_O" gate="A" pin="1"/>
-<wire x1="68.58" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="O3"/>
-<pinref part="SGN_O" gate="A" pin="3"/>
-<wire x1="68.58" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="SGN_O" gate="A" pin="8"/>
-<pinref part="UNL2803A_O" gate="G$1" pin="O8"/>
-<wire x1="53.34" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCCL" class="0">
 <segment>
 <pinref part="LINEAR_R" gate="A1" pin="VO"/>
@@ -8029,153 +8021,6 @@ Source: DCJ0202.pdf</description>
 <junction x="160.02" y="160.02"/>
 <junction x="177.8" y="154.94"/>
 <label x="175.26" y="167.64" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I8"/>
-<wire x1="93.98" y1="203.2" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I7"/>
-<wire x1="93.98" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I6"/>
-<wire x1="93.98" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I5"/>
-<wire x1="93.98" y1="195.58" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I4"/>
-<wire x1="93.98" y1="193.04" x2="124.46" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I3"/>
-<wire x1="93.98" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="11"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I2"/>
-<wire x1="93.98" y1="187.96" x2="124.46" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="13"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="I1"/>
-<wire x1="93.98" y1="185.42" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="VALVE_A" gate="A" pin="15"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I8"/>
-<wire x1="93.98" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I7"/>
-<wire x1="93.98" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I6"/>
-<wire x1="93.98" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="5"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I5"/>
-<wire x1="93.98" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="7"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I4"/>
-<wire x1="93.98" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="9"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I3"/>
-<wire x1="93.98" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="11"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I2"/>
-<wire x1="93.98" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="13"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="UNL2803A_O" gate="G$1" pin="I1"/>
-<wire x1="93.98" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="VALVE_O" gate="A" pin="15"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<pinref part="UNL2803A_A" gate="G$1" pin="O6"/>
-<wire x1="68.58" y1="198.12" x2="55.88" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="SGN_A" gate="A" pin="6"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="SGN_A" gate="A" pin="4"/>
-<wire x1="68.58" y1="193.04" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="UNL2803A_A" gate="G$1" pin="O4"/>
-</segment>
-</net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="SGN_A" gate="A" pin="3"/>
-<wire x1="68.58" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="UNL2803A_A" gate="G$1" pin="O3"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<pinref part="SGN_A" gate="A" pin="2"/>
-<wire x1="68.58" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="UNL2803A_A" gate="G$1" pin="O2"/>
-</segment>
-</net>
-<net name="N$55" class="0">
-<segment>
-<pinref part="SGN_A" gate="A" pin="1"/>
-<wire x1="68.58" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="UNL2803A_A" gate="G$1" pin="O1"/>
 </segment>
 </net>
 <net name="COM2" class="0">
@@ -8206,6 +8051,455 @@ Source: DCJ0202.pdf</description>
 </net>
 <net name="VCCH" class="0">
 <segment>
+<wire x1="50.8" y1="99.06" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<pinref part="IN_C" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="127" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="157.48" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="LINEAR_R" gate="A1" pin="VI"/>
+<wire x1="121.92" y1="160.02" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<junction x="121.92" y="160.02"/>
+<pinref part="ZENER_O" gate="1" pin="A"/>
+<wire x1="50.8" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
+<junction x="50.8" y="160.02"/>
+<wire x1="129.54" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<junction x="50.8" y="127"/>
+<pinref part="VALVE_O" gate="A" pin="16"/>
+<pinref part="VALVE_O" gate="A" pin="14"/>
+<pinref part="VALVE_O" gate="A" pin="12"/>
+<pinref part="VALVE_O" gate="A" pin="10"/>
+<pinref part="VALVE_O" gate="A" pin="8"/>
+<pinref part="VALVE_O" gate="A" pin="6"/>
+<pinref part="VALVE_O" gate="A" pin="4"/>
+<pinref part="VALVE_O" gate="A" pin="2"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<junction x="38.1" y="71.12"/>
+<wire x1="38.1" y1="71.12" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<junction x="38.1" y="73.66"/>
+<wire x1="38.1" y1="73.66" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<junction x="38.1" y="76.2"/>
+<wire x1="38.1" y1="76.2" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<junction x="38.1" y="78.74"/>
+<wire x1="38.1" y1="78.74" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="38.1" y="81.28"/>
+<wire x1="38.1" y1="81.28" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<junction x="38.1" y="83.82"/>
+<wire x1="38.1" y1="83.82" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="127" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<junction x="38.1" y="86.36"/>
+<pinref part="VALVE_A" gate="A" pin="16"/>
+<pinref part="VALVE_A" gate="A" pin="14"/>
+<pinref part="VALVE_A" gate="A" pin="12"/>
+<pinref part="VALVE_A" gate="A" pin="10"/>
+<pinref part="VALVE_A" gate="A" pin="8"/>
+<pinref part="VALVE_A" gate="A" pin="6"/>
+<pinref part="VALVE_A" gate="A" pin="4"/>
+<pinref part="VALVE_A" gate="A" pin="2"/>
+<wire x1="40.64" y1="185.42" x2="40.64" y2="187.96" width="0.1524" layer="91"/>
+<junction x="40.64" y="187.96"/>
+<wire x1="40.64" y1="187.96" x2="40.64" y2="190.5" width="0.1524" layer="91"/>
+<junction x="40.64" y="190.5"/>
+<wire x1="40.64" y1="190.5" x2="40.64" y2="193.04" width="0.1524" layer="91"/>
+<junction x="40.64" y="193.04"/>
+<wire x1="40.64" y1="193.04" x2="40.64" y2="195.58" width="0.1524" layer="91"/>
+<junction x="40.64" y="195.58"/>
+<wire x1="40.64" y1="195.58" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
+<junction x="40.64" y="198.12"/>
+<wire x1="40.64" y1="198.12" x2="40.64" y2="200.66" width="0.1524" layer="91"/>
+<junction x="40.64" y="200.66"/>
+<wire x1="40.64" y1="200.66" x2="40.64" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="160.02" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
+<junction x="40.64" y="185.42"/>
+<pinref part="ZENER_A" gate="1" pin="A"/>
+<pinref part="SUP_12V" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="187.96" x2="175.26" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="236.22" x2="48.26" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="236.22" x2="48.26" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="223.52" x2="50.8" y2="223.52" width="0.1524" layer="91"/>
+<label x="68.58" y="241.3" size="1.778" layer="95"/>
+<wire x1="40.64" y1="203.2" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="223.52" x2="48.26" y2="223.52" width="0.1524" layer="91"/>
+<junction x="40.64" y="203.2"/>
+<junction x="48.26" y="223.52"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="O1"/>
+<pinref part="SGN_O" gate="A" pin="1"/>
+<wire x1="68.58" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="O8"/>
+<pinref part="VALVE_O" gate="A" pin="15"/>
+<wire x1="68.58" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="O3"/>
+<pinref part="SGN_O" gate="A" pin="3"/>
+<wire x1="68.58" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+=======
+<pinref part="VALVE_O" gate="A" pin="13"/>
+<pinref part="UNL2803A_O" gate="G$1" pin="O7"/>
+<wire x1="45.72" y1="83.82" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="SGN_O" gate="A" pin="8"/>
+<pinref part="UNL2803A_O" gate="G$1" pin="O8"/>
+<wire x1="53.34" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="O6"/>
+<pinref part="VALVE_O" gate="A" pin="11"/>
+<wire x1="68.58" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="LINEAR_R" gate="A1" pin="VO"/>
+<pinref part="OUT_C" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="160.02" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="160.02" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="PWR" gate="A" pin="1"/>
+<pinref part="PWR" gate="A" pin="2"/>
+<wire x1="177.8" y1="154.94" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="160.02" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
+<junction x="160.02" y="160.02"/>
+<junction x="177.8" y="154.94"/>
+<label x="175.26" y="167.64" size="1.778" layer="95" rot="R180"/>
+=======
+<pinref part="VALVE_O" gate="A" pin="9"/>
+<pinref part="UNL2803A_O" gate="G$1" pin="O5"/>
+<wire x1="45.72" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I8"/>
+<wire x1="93.98" y1="203.2" x2="124.46" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="1"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="O4"/>
+<pinref part="VALVE_O" gate="A" pin="7"/>
+<wire x1="68.58" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I7"/>
+<wire x1="93.98" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="3"/>
+=======
+<pinref part="VALVE_O" gate="A" pin="5"/>
+<pinref part="UNL2803A_O" gate="G$1" pin="O3"/>
+<wire x1="45.72" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I6"/>
+<wire x1="93.98" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="5"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="O2"/>
+<pinref part="VALVE_O" gate="A" pin="3"/>
+<wire x1="68.58" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I5"/>
+<wire x1="93.98" y1="195.58" x2="124.46" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="7"/>
+=======
+<pinref part="VALVE_O" gate="A" pin="1"/>
+<pinref part="UNL2803A_O" gate="G$1" pin="O1"/>
+<wire x1="45.72" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I4"/>
+<wire x1="93.98" y1="193.04" x2="124.46" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="9"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I8"/>
+<pinref part="SGN_O" gate="A" pin="1"/>
+<wire x1="93.98" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I3"/>
+<wire x1="93.98" y1="190.5" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="11"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I7"/>
+<pinref part="SGN_O" gate="A" pin="2"/>
+<wire x1="93.98" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I2"/>
+<wire x1="93.98" y1="187.96" x2="124.46" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="13"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I6"/>
+<pinref part="SGN_O" gate="A" pin="3"/>
+<wire x1="93.98" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="I1"/>
+<wire x1="93.98" y1="185.42" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="VALVE_A" gate="A" pin="15"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I5"/>
+<pinref part="SGN_O" gate="A" pin="4"/>
+<wire x1="93.98" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I8"/>
+<wire x1="93.98" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="1"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I4"/>
+<pinref part="SGN_O" gate="A" pin="5"/>
+<wire x1="93.98" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I7"/>
+<wire x1="93.98" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="3"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I3"/>
+<pinref part="SGN_O" gate="A" pin="6"/>
+<wire x1="93.98" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I6"/>
+<wire x1="93.98" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="5"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I2"/>
+<pinref part="SGN_O" gate="A" pin="7"/>
+<wire x1="93.98" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I5"/>
+<wire x1="93.98" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="7"/>
+=======
+<pinref part="UNL2803A_O" gate="G$1" pin="I1"/>
+<pinref part="SGN_O" gate="A" pin="8"/>
+<wire x1="93.98" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I4"/>
+<wire x1="93.98" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="9"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="15"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O8"/>
+<wire x1="48.26" y1="203.2" x2="68.58" y2="203.2" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I3"/>
+<wire x1="93.98" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="11"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="13"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O7"/>
+<wire x1="48.26" y1="200.66" x2="68.58" y2="200.66" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I2"/>
+<wire x1="93.98" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="13"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="11"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O6"/>
+<wire x1="48.26" y1="198.12" x2="68.58" y2="198.12" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="I1"/>
+<wire x1="93.98" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="VALVE_O" gate="A" pin="15"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="9"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O5"/>
+<wire x1="48.26" y1="195.58" x2="68.58" y2="195.58" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="O6"/>
+<wire x1="68.58" y1="198.12" x2="55.88" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="SGN_A" gate="A" pin="6"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="7"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O4"/>
+<wire x1="48.26" y1="193.04" x2="68.58" y2="193.04" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="SGN_A" gate="A" pin="4"/>
+<wire x1="68.58" y1="193.04" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O4"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="5"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O3"/>
+<wire x1="48.26" y1="190.5" x2="68.58" y2="190.5" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="SGN_A" gate="A" pin="3"/>
+<wire x1="68.58" y1="190.5" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O3"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="3"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O2"/>
+<wire x1="48.26" y1="187.96" x2="68.58" y2="187.96" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="SGN_A" gate="A" pin="2"/>
+<wire x1="68.58" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O2"/>
+=======
+<pinref part="VALVE_A" gate="A" pin="1"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O1"/>
+<wire x1="48.26" y1="185.42" x2="68.58" y2="185.42" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="SGN_A" gate="A" pin="1"/>
+<wire x1="68.58" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="UNL2803A_A" gate="G$1" pin="O1"/>
+=======
+<pinref part="UNL2803A_A" gate="G$1" pin="I8"/>
+<pinref part="SGN_A" gate="A" pin="1"/>
+<wire x1="93.98" y1="203.2" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_O" gate="G$1" pin="CD+"/>
+<pinref part="BYPASSC_O" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="99.06" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="ZENER_O" gate="1" pin="C"/>
+<wire x1="58.42" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<junction x="63.5" y="99.06"/>
+<label x="71.12" y="93.98" size="1.778" layer="95" rot="R180"/>
+=======
+<pinref part="UNL2803A_A" gate="G$1" pin="I7"/>
+<pinref part="SGN_A" gate="A" pin="2"/>
+<wire x1="93.98" y1="200.66" x2="114.3" y2="200.66" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<<<<<<< HEAD
+<pinref part="UNL2803A_A" gate="G$1" pin="CD+"/>
+<pinref part="BYPASSC_A" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="223.52" x2="60.96" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="205.74" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="ZENER_A" gate="1" pin="C"/>
+<wire x1="55.88" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
+<junction x="60.96" y="223.52"/>
+<label x="68.58" y="213.36" size="1.778" layer="95" rot="R180"/>
+=======
+<pinref part="UNL2803A_A" gate="G$1" pin="I6"/>
+<pinref part="SGN_A" gate="A" pin="3"/>
+<wire x1="93.98" y1="198.12" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<<<<<<< HEAD
 <pinref part="VALVE_O" gate="A" pin="2"/>
 <pinref part="VALVE_O" gate="A" pin="4"/>
 <wire x1="129.54" y1="86.36" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
@@ -8277,6 +8571,39 @@ Source: DCJ0202.pdf</description>
 <junction x="129.54" y="86.36"/>
 <junction x="50.8" y="127"/>
 <label x="68.58" y="241.3" size="1.778" layer="95"/>
+=======
+<pinref part="UNL2803A_A" gate="G$1" pin="I5"/>
+<pinref part="SGN_A" gate="A" pin="4"/>
+<wire x1="93.98" y1="195.58" x2="114.3" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="UNL2803A_A" gate="G$1" pin="I4"/>
+<pinref part="SGN_A" gate="A" pin="5"/>
+<wire x1="93.98" y1="193.04" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="UNL2803A_A" gate="G$1" pin="I3"/>
+<pinref part="SGN_A" gate="A" pin="6"/>
+<wire x1="93.98" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="UNL2803A_A" gate="G$1" pin="I2"/>
+<pinref part="SGN_A" gate="A" pin="7"/>
+<wire x1="93.98" y1="187.96" x2="114.3" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="UNL2803A_A" gate="G$1" pin="I1"/>
+<pinref part="SGN_A" gate="A" pin="8"/>
+<wire x1="93.98" y1="185.42" x2="114.3" y2="185.42" width="0.1524" layer="91"/>
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 </segment>
 </net>
 </nets>

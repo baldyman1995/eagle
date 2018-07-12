@@ -7720,6 +7720,7 @@ Metric Code Size 5664</description>
 <vertex x="-0.15" y="4.75"/>
 <vertex x="14.85" y="4.75"/>
 </polygon>
+<<<<<<< HEAD
 <hole x="10.7" y="-4.8" drill="0.9"/>
 <hole x="10.8" y="-4.8" drill="0.9"/>
 <hole x="10.9" y="-4.8" drill="0.9"/>
@@ -7786,6 +7787,8 @@ Metric Code Size 5664</description>
 <hole x="7.8" y="0.9" drill="0.9"/>
 <hole x="7.8" y="1" drill="0.9"/>
 <hole x="7.8" y="1.1" drill="0.9"/>
+=======
+>>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 </package>
 </packages>
 <packages3d>
