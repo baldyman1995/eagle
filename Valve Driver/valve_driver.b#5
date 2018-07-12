@@ -156,14 +156,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="110" y2="0" width="0" layer="20"/>
-<wire x1="110" y1="0" x2="110" y2="80" width="0" layer="20"/>
-<wire x1="110" y1="80" x2="0" y2="80" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="80" y2="0" width="0" layer="20"/>
+<wire x1="80" y1="0" x2="80" y2="80" width="0" layer="20"/>
+<wire x1="80" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<hole x="5" y="4" drill="2"/>
-<hole x="100" y="10" drill="2"/>
-<hole x="100" y="70" drill="2"/>
-<hole x="10" y="70" drill="2"/>
+<hole x="4" y="4" drill="2"/>
+<hole x="76" y="4" drill="2"/>
+<hole x="63" y="62" drill="2"/>
+<hole x="4" y="76" drill="2"/>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -1904,50 +1904,50 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BYPASSC_O" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u" x="41" y="16" rot="R90">
-<attribute name="MF" value="" x="41" y="16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="41" y="16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="41" y="16" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BYPASSC_O" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u" x="61" y="16" rot="R90">
+<attribute name="MF" value="" x="61" y="16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="61" y="16" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="61" y="16" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="UNL2803A_O" library="uln-udn" library_urn="urn:adsk.eagle:library:407" package="DIL18" package3d_urn="urn:adsk.eagle:package:30237/1" value="" x="24.25" y="17">
-<attribute name="MF" value="" x="24.25" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="24.25" y="17" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="24.25" y="17" size="1.778" layer="27" display="off"/>
+<element name="UNL2803A_O" library="uln-udn" library_urn="urn:adsk.eagle:library:407" package="DIL18" package3d_urn="urn:adsk.eagle:package:30237/1" value="" x="44.25" y="17">
+<attribute name="MF" value="" x="44.25" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="44.25" y="17" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="44.25" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="UNL2803A_A" library="uln-udn" library_urn="urn:adsk.eagle:library:407" package="DIL18" package3d_urn="urn:adsk.eagle:package:30237/1" value="" x="21.75" y="57" rot="R180">
-<attribute name="MF" value="" x="21.75" y="57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="21.75" y="57" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="21.75" y="57" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="UNL2803A_A" library="uln-udn" library_urn="urn:adsk.eagle:library:407" package="DIL18" package3d_urn="urn:adsk.eagle:package:30237/1" value="" x="41.75" y="57" rot="R180">
+<attribute name="MF" value="" x="41.75" y="57" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="41.75" y="57" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="41.75" y="57" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="SGN_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="23" y="7" rot="R180"/>
-<element name="SGN_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="23" y="67"/>
-<element name="BYPASSC_A" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u" x="6.5" y="57" rot="R270">
-<attribute name="MF" value="" x="6.5" y="57" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="6.5" y="57" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="6.5" y="57" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="SGN_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="43" y="7" rot="R180"/>
+<element name="SGN_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="43" y="67"/>
+<element name="BYPASSC_A" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u" x="24.5" y="58" rot="R270">
+<attribute name="MF" value="" x="24.5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="24.5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="24.5" y="58" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LINEAR_R" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" package3d_urn="urn:adsk.eagle:package:16417/1" value="7805TV" x="28" y="90" rot="R180"/>
-<element name="IN_C" library="adafruit" package="C050-024X044" value="0.33u" x="39" y="90" rot="R270"/>
-<element name="OUT_C" library="adafruit" package="C050-024X044" value="0.1u" x="17" y="90" rot="R270"/>
-<element name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X02" package3d_urn="urn:adsk.eagle:package:22455/2" value="" x="9" y="108" rot="R90"/>
-<element name="ZENER_A" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v" x="3" y="60" rot="R90">
-<attribute name="MF" value="" x="3" y="60" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="3" y="60" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="3" y="60" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LINEAR_R" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" package3d_urn="urn:adsk.eagle:package:16417/1" value="7805TV" x="18" y="41" rot="R180"/>
+<element name="IN_C" library="adafruit" package="C050-024X044" value="0.33u" x="28" y="41" rot="R270"/>
+<element name="OUT_C" library="adafruit" package="C050-024X044" value="0.1u" x="7" y="41" rot="R270"/>
+<element name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X02" package3d_urn="urn:adsk.eagle:package:22455/2" value="" x="6" y="60" rot="R90"/>
+<element name="ZENER_A" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v" x="18" y="61" rot="R90">
+<attribute name="MF" value="" x="18" y="61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="18" y="61" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="18" y="61" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="ZENER_O" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v" x="46.5" y="13" rot="R270">
-<attribute name="MF" value="" x="46.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="46.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="46.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="ZENER_O" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v" x="66.5" y="13" rot="R270">
+<attribute name="MF" value="" x="66.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="66.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="66.5" y="13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SUP_12V" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="DCJ0202" package3d_urn="urn:adsk.eagle:package:7491/1" value="DCJ0202" x="59" y="68" rot="R180">
-<attribute name="MF" value="" x="84" y="41.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="84" y="41.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="84" y="41.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="84" y="41.75" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="SUP_12V" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="DCJ0202" package3d_urn="urn:adsk.eagle:package:7491/1" value="DCJ0202" x="71" y="69" rot="R180">
+<attribute name="MF" value="" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="96" y="42.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="VALVE_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="23" y="45" rot="R180"/>
-<element name="VALVE_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="23" y="29"/>
+<element name="VALVE_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="43" y="45" rot="R180"/>
+<element name="VALVE_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X08" package3d_urn="urn:adsk.eagle:package:22481/2" value="" x="43" y="29"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1968,39 +1968,34 @@ design rules under a new name.</description>
 <vertex x="117.5" y="-3"/>
 <vertex x="117.5" y="81"/>
 </polygon>
-<wire x1="39" y1="87.46" x2="6.5" y2="59.54" width="0" layer="19" extent="1-1"/>
-<wire x1="28" y1="92.54" x2="39" y2="87.46" width="0" layer="19" extent="1-1"/>
-<wire x1="17" y1="87.46" x2="28" y2="92.54" width="0" layer="19" extent="1-1"/>
-<wire x1="10.27" y1="109.27" x2="17" y2="87.46" width="0" layer="19" extent="1-1"/>
-<wire x1="7.73" y1="109.27" x2="10.27" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="54.2" y1="68" x2="10.27" y2="109.27" width="0" layer="19" extent="1-1"/>
-<wire x1="59" y1="71" x2="54.2" y2="68" width="0" layer="19" extent="1-1"/>
-<wire x1="11.59" y1="60.81" x2="17" y2="87.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCCL">
 <contactref element="LINEAR_R" pad="3"/>
 <contactref element="OUT_C" pad="1"/>
 <contactref element="PWR" pad="1"/>
 <contactref element="PWR" pad="2"/>
-<wire x1="17" y1="92.54" x2="25.46" y2="92.54" width="0" layer="19" extent="1-1"/>
-<wire x1="10.27" y1="106.73" x2="17" y2="92.54" width="0" layer="19" extent="1-1"/>
-<wire x1="7.73" y1="106.73" x2="10.27" y2="106.73" width="0" layer="19" extent="1-1"/>
+<wire x1="15.46" y1="43.54" x2="7" y2="43.54" width="0.762" layer="1"/>
+<wire x1="7" y1="43.54" x2="7" y2="58.46" width="0.762" layer="1"/>
+<wire x1="7" y1="58.46" x2="7.27" y2="58.73" width="0.762" layer="1"/>
+<wire x1="7" y1="58.46" x2="4.73" y2="58.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COM2">
 <contactref element="UNL2803A_O" pad="10"/>
 <contactref element="BYPASSC_O" pad="2"/>
 <contactref element="ZENER_O" pad="C"/>
-<wire x1="41" y1="18.54" x2="38.73" y2="20.81" width="0.762" layer="1"/>
-<wire x1="38.73" y1="20.81" x2="34.41" y2="20.81" width="0.762" layer="1"/>
-<wire x1="46.5" y1="18.08" x2="46.04" y2="18.54" width="0.762" layer="1"/>
-<wire x1="46.04" y1="18.54" x2="41" y2="18.54" width="0.762" layer="1"/>
+<wire x1="61" y1="18.54" x2="58.73" y2="20.81" width="0.762" layer="1"/>
+<wire x1="58.73" y1="20.81" x2="54.41" y2="20.81" width="0.762" layer="1"/>
+<wire x1="66.5" y1="18.08" x2="66.04" y2="18.54" width="0.762" layer="1"/>
+<wire x1="66.04" y1="18.54" x2="61" y2="18.54" width="0.762" layer="1"/>
 </signal>
 <signal name="COM1">
 <contactref element="UNL2803A_A" pad="10"/>
 <contactref element="BYPASSC_A" pad="2"/>
 <contactref element="ZENER_A" pad="C"/>
-<wire x1="6.5" y1="54.46" x2="3" y2="54.92" width="0" layer="19" extent="1-1"/>
-<wire x1="11.59" y1="53.19" x2="6.5" y2="54.46" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="55.92" x2="18.46" y2="55.46" width="0.762" layer="1"/>
+<wire x1="18.46" y1="55.46" x2="24.5" y2="55.46" width="0.762" layer="1"/>
+<wire x1="24.5" y1="55.46" x2="26.77" y2="53.19" width="0.762" layer="1"/>
+<wire x1="26.77" y1="53.19" x2="31.59" y2="53.19" width="0.762" layer="1"/>
 </signal>
 <signal name="VCCH">
 <contactref element="IN_C" pad="1"/>
@@ -2014,13 +2009,13 @@ design rules under a new name.</description>
 <contactref element="VALVE_O" pad="12"/>
 <contactref element="VALVE_O" pad="14"/>
 <contactref element="VALVE_O" pad="16"/>
-<wire x1="31.89" y1="30.27" x2="29.35" y2="30.27" width="0.762" layer="1"/>
-<wire x1="29.35" y1="30.27" x2="26.81" y2="30.27" width="0.762" layer="1"/>
-<wire x1="26.81" y1="30.27" x2="24.27" y2="30.27" width="0.762" layer="1"/>
-<wire x1="24.27" y1="30.27" x2="21.73" y2="30.27" width="0.762" layer="1"/>
-<wire x1="21.73" y1="30.27" x2="19.19" y2="30.27" width="0.762" layer="1"/>
-<wire x1="19.19" y1="30.27" x2="16.65" y2="30.27" width="0.762" layer="1"/>
-<wire x1="16.65" y1="30.27" x2="14.11" y2="30.27" width="0.762" layer="1"/>
+<wire x1="51.89" y1="30.27" x2="49.35" y2="30.27" width="0.762" layer="1"/>
+<wire x1="49.35" y1="30.27" x2="46.81" y2="30.27" width="0.762" layer="1"/>
+<wire x1="46.81" y1="30.27" x2="44.27" y2="30.27" width="0.762" layer="1"/>
+<wire x1="44.27" y1="30.27" x2="41.73" y2="30.27" width="0.762" layer="1"/>
+<wire x1="41.73" y1="30.27" x2="39.19" y2="30.27" width="0.762" layer="1"/>
+<wire x1="39.19" y1="30.27" x2="36.65" y2="30.27" width="0.762" layer="1"/>
+<wire x1="36.65" y1="30.27" x2="34.11" y2="30.27" width="0.762" layer="1"/>
 <contactref element="VALVE_A" pad="2"/>
 <contactref element="VALVE_A" pad="4"/>
 <contactref element="VALVE_A" pad="6"/>
@@ -2029,217 +2024,223 @@ design rules under a new name.</description>
 <contactref element="VALVE_A" pad="12"/>
 <contactref element="VALVE_A" pad="14"/>
 <contactref element="VALVE_A" pad="16"/>
-<wire x1="14.11" y1="43.73" x2="16.65" y2="43.73" width="0.762" layer="1"/>
-<wire x1="16.65" y1="43.73" x2="19.19" y2="43.73" width="0.762" layer="1"/>
-<wire x1="19.19" y1="43.73" x2="21.73" y2="43.73" width="0.762" layer="1"/>
-<wire x1="21.73" y1="43.73" x2="24.27" y2="43.73" width="0.762" layer="1"/>
-<wire x1="24.27" y1="43.73" x2="26.81" y2="43.73" width="0.762" layer="1"/>
-<wire x1="26.81" y1="43.73" x2="29.35" y2="43.73" width="0.762" layer="1"/>
-<wire x1="29.35" y1="43.73" x2="31.89" y2="43.73" width="0.762" layer="1"/>
+<wire x1="34.11" y1="43.73" x2="36.65" y2="43.73" width="0.762" layer="1"/>
+<wire x1="36.65" y1="43.73" x2="39.19" y2="43.73" width="0.762" layer="1"/>
+<wire x1="39.19" y1="43.73" x2="41.73" y2="43.73" width="0.762" layer="1"/>
+<wire x1="41.73" y1="43.73" x2="44.27" y2="43.73" width="0.762" layer="1"/>
+<wire x1="44.27" y1="43.73" x2="46.81" y2="43.73" width="0.762" layer="1"/>
+<wire x1="46.81" y1="43.73" x2="49.35" y2="43.73" width="0.762" layer="1"/>
+<wire x1="49.35" y1="43.73" x2="51.89" y2="43.73" width="0.762" layer="1"/>
 <contactref element="SUP_12V" pad="1"/>
 <contactref element="ZENER_A" pad="A"/>
-<wire x1="31.89" y1="43.73" x2="31.89" y2="30.27" width="0.762" layer="1"/>
-<wire x1="31.89" y1="30.27" x2="48.98" y2="30.27" width="0.762" layer="1"/>
-<wire x1="48.98" y1="30.27" x2="50.5" y2="28.75" width="0.762" layer="1"/>
-<wire x1="50.5" y1="28.75" x2="50.5" y2="10" width="0.762" layer="1"/>
-<wire x1="50.5" y1="10" x2="48.42" y2="7.92" width="0.762" layer="1"/>
-<wire x1="48.42" y1="7.92" x2="46.5" y2="7.92" width="0.762" layer="1"/>
-<wire x1="59" y1="64.9" x2="3" y2="65.08" width="0" layer="19" extent="1-1"/>
-<wire x1="39" y1="92.54" x2="3" y2="65.08" width="0" layer="19" extent="1-1"/>
-<wire x1="30.54" y1="92.54" x2="39" y2="92.54" width="0" layer="19" extent="1-1"/>
-<wire x1="29.35" y1="43.73" x2="30.54" y2="92.54" width="0" layer="19" extent="1-1"/>
+<wire x1="51.89" y1="43.73" x2="51.89" y2="30.27" width="0.762" layer="1"/>
+<wire x1="51.89" y1="30.27" x2="68.98" y2="30.27" width="0.762" layer="1"/>
+<wire x1="68.98" y1="30.27" x2="70.5" y2="28.75" width="0.762" layer="1"/>
+<wire x1="70.5" y1="28.75" x2="70.5" y2="10" width="0.762" layer="1"/>
+<wire x1="70.5" y1="10" x2="68.42" y2="7.92" width="0.762" layer="1"/>
+<wire x1="68.42" y1="7.92" x2="66.5" y2="7.92" width="0.762" layer="1"/>
+<wire x1="71" y1="65.9" x2="71" y2="54" width="0.762" layer="1"/>
+<wire x1="60.73" y1="43.73" x2="51.89" y2="43.73" width="0.762" layer="1"/>
+<wire x1="71" y1="54" x2="60.73" y2="43.73" width="0.762" layer="1"/>
+<wire x1="28" y1="43.54" x2="33.92" y2="43.54" width="0.762" layer="1"/>
+<wire x1="33.92" y1="43.54" x2="34.11" y2="43.73" width="0.762" layer="1"/>
+<wire x1="28" y1="43.54" x2="20.54" y2="43.54" width="0.762" layer="1"/>
+<wire x1="18" y1="66.08" x2="25.92" y2="74" width="0.762" layer="1"/>
+<wire x1="61.1" y1="65.9" x2="71" y2="65.9" width="0.762" layer="1"/>
+<wire x1="25.92" y1="74" x2="53" y2="74" width="0.762" layer="1"/>
+<wire x1="53" y1="74" x2="61.1" y2="65.9" width="0.762" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="UNL2803A_O" pad="11"/>
 <contactref element="VALVE_O" pad="15"/>
-<wire x1="31.87" y1="20.81" x2="31.87" y2="27.71" width="0.762" layer="1"/>
-<wire x1="31.87" y1="27.71" x2="31.89" y2="27.73" width="0.762" layer="1"/>
+<wire x1="51.87" y1="20.81" x2="51.87" y2="27.71" width="0.762" layer="1"/>
+<wire x1="51.87" y1="27.71" x2="51.89" y2="27.73" width="0.762" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="VALVE_O" pad="13"/>
 <contactref element="UNL2803A_O" pad="12"/>
-<wire x1="29.35" y1="27.73" x2="29.35" y2="20.83" width="0.762" layer="1"/>
-<wire x1="29.35" y1="20.83" x2="29.33" y2="20.81" width="0.762" layer="1"/>
+<wire x1="49.35" y1="27.73" x2="49.35" y2="20.83" width="0.762" layer="1"/>
+<wire x1="49.35" y1="20.83" x2="49.33" y2="20.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="UNL2803A_O" pad="13"/>
 <contactref element="VALVE_O" pad="11"/>
-<wire x1="26.81" y1="27.73" x2="26.81" y2="20.83" width="0.762" layer="1"/>
-<wire x1="26.81" y1="20.83" x2="26.79" y2="20.81" width="0.762" layer="1"/>
+<wire x1="46.81" y1="27.73" x2="46.81" y2="20.83" width="0.762" layer="1"/>
+<wire x1="46.81" y1="20.83" x2="46.79" y2="20.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="VALVE_O" pad="9"/>
 <contactref element="UNL2803A_O" pad="14"/>
-<wire x1="24.25" y1="20.81" x2="24.25" y2="27.71" width="0.762" layer="1"/>
-<wire x1="24.25" y1="27.71" x2="24.27" y2="27.73" width="0.762" layer="1"/>
+<wire x1="44.25" y1="20.81" x2="44.25" y2="27.71" width="0.762" layer="1"/>
+<wire x1="44.25" y1="27.71" x2="44.27" y2="27.73" width="0.762" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="UNL2803A_O" pad="15"/>
 <contactref element="VALVE_O" pad="7"/>
-<wire x1="21.73" y1="27.73" x2="21.73" y2="20.83" width="0.762" layer="1"/>
-<wire x1="21.73" y1="20.83" x2="21.71" y2="20.81" width="0.762" layer="1"/>
+<wire x1="41.73" y1="27.73" x2="41.73" y2="20.83" width="0.762" layer="1"/>
+<wire x1="41.73" y1="20.83" x2="41.71" y2="20.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="VALVE_O" pad="5"/>
 <contactref element="UNL2803A_O" pad="16"/>
-<wire x1="19.17" y1="20.81" x2="19.17" y2="27.71" width="0.762" layer="1"/>
-<wire x1="19.17" y1="27.71" x2="19.19" y2="27.73" width="0.762" layer="1"/>
+<wire x1="39.17" y1="20.81" x2="39.17" y2="27.71" width="0.762" layer="1"/>
+<wire x1="39.17" y1="27.71" x2="39.19" y2="27.73" width="0.762" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="UNL2803A_O" pad="17"/>
 <contactref element="VALVE_O" pad="3"/>
-<wire x1="16.65" y1="27.73" x2="16.65" y2="20.83" width="0.762" layer="1"/>
-<wire x1="16.65" y1="20.83" x2="16.63" y2="20.81" width="0.762" layer="1"/>
+<wire x1="36.65" y1="27.73" x2="36.65" y2="20.83" width="0.762" layer="1"/>
+<wire x1="36.65" y1="20.83" x2="36.63" y2="20.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="VALVE_O" pad="1"/>
 <contactref element="UNL2803A_O" pad="18"/>
-<wire x1="14.09" y1="20.81" x2="14.09" y2="27.71" width="0.762" layer="1"/>
-<wire x1="14.09" y1="27.71" x2="14.11" y2="27.73" width="0.762" layer="1"/>
+<wire x1="34.09" y1="20.81" x2="34.09" y2="27.71" width="0.762" layer="1"/>
+<wire x1="34.09" y1="27.71" x2="34.11" y2="27.73" width="0.762" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="UNL2803A_O" pad="8"/>
 <contactref element="SGN_O" pad="1"/>
-<wire x1="31.87" y1="13.19" x2="31.87" y2="7.02" width="0.762" layer="1"/>
-<wire x1="31.87" y1="7.02" x2="31.89" y2="7" width="0.762" layer="1"/>
+<wire x1="51.87" y1="13.19" x2="51.87" y2="7.02" width="0.762" layer="1"/>
+<wire x1="51.87" y1="7.02" x2="51.89" y2="7" width="0.762" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="UNL2803A_O" pad="7"/>
 <contactref element="SGN_O" pad="2"/>
-<wire x1="29.35" y1="7" x2="29.35" y2="13.17" width="0.762" layer="1"/>
-<wire x1="29.35" y1="13.17" x2="29.33" y2="13.19" width="0.762" layer="1"/>
+<wire x1="49.35" y1="7" x2="49.35" y2="13.17" width="0.762" layer="1"/>
+<wire x1="49.35" y1="13.17" x2="49.33" y2="13.19" width="0.762" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="UNL2803A_O" pad="6"/>
 <contactref element="SGN_O" pad="3"/>
-<wire x1="26.79" y1="13.19" x2="26.79" y2="7.02" width="0.762" layer="1"/>
-<wire x1="26.79" y1="7.02" x2="26.81" y2="7" width="0.762" layer="1"/>
+<wire x1="46.79" y1="13.19" x2="46.79" y2="7.02" width="0.762" layer="1"/>
+<wire x1="46.79" y1="7.02" x2="46.81" y2="7" width="0.762" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="UNL2803A_O" pad="5"/>
 <contactref element="SGN_O" pad="4"/>
-<wire x1="24.27" y1="7" x2="24.27" y2="13.17" width="0.762" layer="1"/>
-<wire x1="24.27" y1="13.17" x2="24.25" y2="13.19" width="0.762" layer="1"/>
+<wire x1="44.27" y1="7" x2="44.27" y2="13.17" width="0.762" layer="1"/>
+<wire x1="44.27" y1="13.17" x2="44.25" y2="13.19" width="0.762" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="UNL2803A_O" pad="4"/>
 <contactref element="SGN_O" pad="5"/>
-<wire x1="21.71" y1="13.19" x2="21.71" y2="7.02" width="0.762" layer="1"/>
-<wire x1="21.71" y1="7.02" x2="21.73" y2="7" width="0.762" layer="1"/>
+<wire x1="41.71" y1="13.19" x2="41.71" y2="7.02" width="0.762" layer="1"/>
+<wire x1="41.71" y1="7.02" x2="41.73" y2="7" width="0.762" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="UNL2803A_O" pad="3"/>
 <contactref element="SGN_O" pad="6"/>
-<wire x1="19.19" y1="7" x2="19.19" y2="13.17" width="0.762" layer="1"/>
-<wire x1="19.19" y1="13.17" x2="19.17" y2="13.19" width="0.762" layer="1"/>
+<wire x1="39.19" y1="7" x2="39.19" y2="13.17" width="0.762" layer="1"/>
+<wire x1="39.19" y1="13.17" x2="39.17" y2="13.19" width="0.762" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="UNL2803A_O" pad="2"/>
 <contactref element="SGN_O" pad="7"/>
-<wire x1="16.63" y1="13.19" x2="16.63" y2="7.02" width="0.762" layer="1"/>
-<wire x1="16.63" y1="7.02" x2="16.65" y2="7" width="0.762" layer="1"/>
+<wire x1="36.63" y1="13.19" x2="36.63" y2="7.02" width="0.762" layer="1"/>
+<wire x1="36.63" y1="7.02" x2="36.65" y2="7" width="0.762" layer="1"/>
 </signal>
 <signal name="N$19">
 <contactref element="UNL2803A_O" pad="1"/>
 <contactref element="SGN_O" pad="8"/>
-<wire x1="14.11" y1="7" x2="14.11" y2="13.17" width="0.762" layer="1"/>
-<wire x1="14.11" y1="13.17" x2="14.09" y2="13.19" width="0.762" layer="1"/>
+<wire x1="34.11" y1="7" x2="34.11" y2="13.17" width="0.762" layer="1"/>
+<wire x1="34.11" y1="13.17" x2="34.09" y2="13.19" width="0.762" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="VALVE_A" pad="15"/>
 <contactref element="UNL2803A_A" pad="11"/>
-<wire x1="14.13" y1="53.19" x2="14.11" y2="53.17" width="0.762" layer="1"/>
-<wire x1="14.11" y1="53.17" x2="14.11" y2="46.27" width="0.762" layer="1"/>
+<wire x1="34.13" y1="53.19" x2="34.11" y2="53.17" width="0.762" layer="1"/>
+<wire x1="34.11" y1="53.17" x2="34.11" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="VALVE_A" pad="13"/>
 <contactref element="UNL2803A_A" pad="12"/>
-<wire x1="16.67" y1="53.19" x2="16.67" y2="46.29" width="0.762" layer="1"/>
-<wire x1="16.67" y1="46.29" x2="16.65" y2="46.27" width="0.762" layer="1"/>
+<wire x1="36.67" y1="53.19" x2="36.67" y2="46.29" width="0.762" layer="1"/>
+<wire x1="36.67" y1="46.29" x2="36.65" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="VALVE_A" pad="11"/>
 <contactref element="UNL2803A_A" pad="13"/>
-<wire x1="19.21" y1="53.19" x2="19.21" y2="46.29" width="0.762" layer="1"/>
-<wire x1="19.21" y1="46.29" x2="19.19" y2="46.27" width="0.762" layer="1"/>
+<wire x1="39.21" y1="53.19" x2="39.21" y2="46.29" width="0.762" layer="1"/>
+<wire x1="39.21" y1="46.29" x2="39.19" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="VALVE_A" pad="9"/>
 <contactref element="UNL2803A_A" pad="14"/>
-<wire x1="21.75" y1="53.19" x2="21.75" y2="46.29" width="0.762" layer="1"/>
-<wire x1="21.75" y1="46.29" x2="21.73" y2="46.27" width="0.762" layer="1"/>
+<wire x1="41.75" y1="53.19" x2="41.75" y2="46.29" width="0.762" layer="1"/>
+<wire x1="41.75" y1="46.29" x2="41.73" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$24">
 <contactref element="VALVE_A" pad="7"/>
 <contactref element="UNL2803A_A" pad="15"/>
-<wire x1="24.29" y1="53.19" x2="24.29" y2="46.29" width="0.762" layer="1"/>
-<wire x1="24.29" y1="46.29" x2="24.27" y2="46.27" width="0.762" layer="1"/>
+<wire x1="44.29" y1="53.19" x2="44.29" y2="46.29" width="0.762" layer="1"/>
+<wire x1="44.29" y1="46.29" x2="44.27" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="VALVE_A" pad="5"/>
 <contactref element="UNL2803A_A" pad="16"/>
-<wire x1="26.83" y1="53.19" x2="26.83" y2="46.29" width="0.762" layer="1"/>
-<wire x1="26.83" y1="46.29" x2="26.81" y2="46.27" width="0.762" layer="1"/>
+<wire x1="46.83" y1="53.19" x2="46.83" y2="46.29" width="0.762" layer="1"/>
+<wire x1="46.83" y1="46.29" x2="46.81" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$26">
 <contactref element="VALVE_A" pad="3"/>
 <contactref element="UNL2803A_A" pad="17"/>
-<wire x1="29.37" y1="53.19" x2="29.37" y2="46.29" width="0.762" layer="1"/>
-<wire x1="29.37" y1="46.29" x2="29.35" y2="46.27" width="0.762" layer="1"/>
+<wire x1="49.37" y1="53.19" x2="49.37" y2="46.29" width="0.762" layer="1"/>
+<wire x1="49.37" y1="46.29" x2="49.35" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$27">
 <contactref element="VALVE_A" pad="1"/>
 <contactref element="UNL2803A_A" pad="18"/>
-<wire x1="31.91" y1="53.19" x2="31.91" y2="46.29" width="0.762" layer="1"/>
-<wire x1="31.91" y1="46.29" x2="31.89" y2="46.27" width="0.762" layer="1"/>
+<wire x1="51.91" y1="53.19" x2="51.91" y2="46.29" width="0.762" layer="1"/>
+<wire x1="51.91" y1="46.29" x2="51.89" y2="46.27" width="0.762" layer="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="UNL2803A_A" pad="8"/>
 <contactref element="SGN_A" pad="1"/>
-<wire x1="14.11" y1="67" x2="14.11" y2="60.83" width="0.762" layer="1"/>
-<wire x1="14.11" y1="60.83" x2="14.13" y2="60.81" width="0.762" layer="1"/>
+<wire x1="34.11" y1="67" x2="34.11" y2="60.83" width="0.762" layer="1"/>
+<wire x1="34.11" y1="60.83" x2="34.13" y2="60.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$29">
 <contactref element="UNL2803A_A" pad="7"/>
 <contactref element="SGN_A" pad="2"/>
-<wire x1="16.67" y1="60.81" x2="16.67" y2="66.98" width="0.762" layer="1"/>
-<wire x1="16.67" y1="66.98" x2="16.65" y2="67" width="0.762" layer="1"/>
+<wire x1="36.67" y1="60.81" x2="36.67" y2="66.98" width="0.762" layer="1"/>
+<wire x1="36.67" y1="66.98" x2="36.65" y2="67" width="0.762" layer="1"/>
 </signal>
 <signal name="N$30">
 <contactref element="UNL2803A_A" pad="6"/>
 <contactref element="SGN_A" pad="3"/>
-<wire x1="19.19" y1="67" x2="19.19" y2="60.83" width="0.762" layer="1"/>
-<wire x1="19.19" y1="60.83" x2="19.21" y2="60.81" width="0.762" layer="1"/>
+<wire x1="39.19" y1="67" x2="39.19" y2="60.83" width="0.762" layer="1"/>
+<wire x1="39.19" y1="60.83" x2="39.21" y2="60.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="UNL2803A_A" pad="5"/>
 <contactref element="SGN_A" pad="4"/>
-<wire x1="21.75" y1="60.81" x2="21.75" y2="66.98" width="0.762" layer="1"/>
-<wire x1="21.75" y1="66.98" x2="21.73" y2="67" width="0.762" layer="1"/>
+<wire x1="41.75" y1="60.81" x2="41.75" y2="66.98" width="0.762" layer="1"/>
+<wire x1="41.75" y1="66.98" x2="41.73" y2="67" width="0.762" layer="1"/>
 </signal>
 <signal name="N$32">
 <contactref element="UNL2803A_A" pad="4"/>
 <contactref element="SGN_A" pad="5"/>
-<wire x1="24.27" y1="67" x2="24.27" y2="60.83" width="0.762" layer="1"/>
-<wire x1="24.27" y1="60.83" x2="24.29" y2="60.81" width="0.762" layer="1"/>
+<wire x1="44.27" y1="67" x2="44.27" y2="60.83" width="0.762" layer="1"/>
+<wire x1="44.27" y1="60.83" x2="44.29" y2="60.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$33">
 <contactref element="UNL2803A_A" pad="3"/>
 <contactref element="SGN_A" pad="6"/>
-<wire x1="26.83" y1="60.81" x2="26.83" y2="66.98" width="0.762" layer="1"/>
-<wire x1="26.83" y1="66.98" x2="26.81" y2="67" width="0.762" layer="1"/>
+<wire x1="46.83" y1="60.81" x2="46.83" y2="66.98" width="0.762" layer="1"/>
+<wire x1="46.83" y1="66.98" x2="46.81" y2="67" width="0.762" layer="1"/>
 </signal>
 <signal name="N$34">
 <contactref element="UNL2803A_A" pad="2"/>
 <contactref element="SGN_A" pad="7"/>
-<wire x1="29.35" y1="67" x2="29.35" y2="60.83" width="0.762" layer="1"/>
-<wire x1="29.35" y1="60.83" x2="29.37" y2="60.81" width="0.762" layer="1"/>
+<wire x1="49.35" y1="67" x2="49.35" y2="60.83" width="0.762" layer="1"/>
+<wire x1="49.35" y1="60.83" x2="49.37" y2="60.81" width="0.762" layer="1"/>
 </signal>
 <signal name="N$35">
 <contactref element="UNL2803A_A" pad="1"/>
 <contactref element="SGN_A" pad="8"/>
-<wire x1="31.89" y1="67" x2="31.89" y2="60.83" width="0.762" layer="1"/>
-<wire x1="31.89" y1="60.83" x2="31.91" y2="60.81" width="0.762" layer="1"/>
+<wire x1="51.89" y1="67" x2="51.89" y2="60.83" width="0.762" layer="1"/>
+<wire x1="51.89" y1="60.83" x2="51.91" y2="60.81" width="0.762" layer="1"/>
 </signal>
 </signals>
 </board>

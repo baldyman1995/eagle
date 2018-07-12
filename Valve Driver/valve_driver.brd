@@ -164,6 +164,66 @@
 <hole x="76" y="4" drill="2"/>
 <hole x="70" y="54" drill="2"/>
 <hole x="4" y="76" drill="2"/>
+<hole x="67.1" y="66.4" drill="0.9"/>
+<hole x="67.3" y="66.4" drill="0.9"/>
+<hole x="67.2" y="66.4" drill="0.9"/>
+<hole x="67.5" y="66.4" drill="0.9"/>
+<hole x="67.4" y="66.4" drill="0.9"/>
+<hole x="67.6" y="66.4" drill="0.9"/>
+<hole x="67.7" y="66.4" drill="0.9"/>
+<hole x="67.8" y="66.4" drill="0.9"/>
+<hole x="67.9" y="66.4" drill="0.9"/>
+<hole x="66.9" y="66.4" drill="0.9"/>
+<hole x="66.8" y="66.4" drill="0.9"/>
+<hole x="66.7" y="66.4" drill="0.9"/>
+<hole x="66.6" y="66.4" drill="0.9"/>
+<hole x="66.5" y="66.4" drill="0.9"/>
+<hole x="66.4" y="66.4" drill="0.9"/>
+<hole x="66.3" y="66.4" drill="0.9"/>
+<hole x="66.2" y="66.4" drill="0.9"/>
+<hole x="66.1" y="66.4" drill="0.9"/>
+<hole x="62.2" y="69.5" drill="0.9"/>
+<hole x="62.2" y="69.6" drill="0.9"/>
+<hole x="62.2" y="69.7" drill="0.9"/>
+<hole x="62.2" y="69.8" drill="0.9"/>
+<hole x="62.2" y="69.9" drill="0.9"/>
+<hole x="62.2" y="70" drill="0.9"/>
+<hole x="62.2" y="70.1" drill="0.9"/>
+<hole x="62.2" y="70.2" drill="0.9"/>
+<hole x="62.2" y="70.3" drill="0.9"/>
+<hole x="62.2" y="69.3" drill="0.9"/>
+<hole x="62.2" y="69.2" drill="0.9"/>
+<hole x="62.2" y="69.1" drill="0.9"/>
+<hole x="62.2" y="69" drill="0.9"/>
+<hole x="62.2" y="68.9" drill="0.9"/>
+<hole x="62.2" y="68.8" drill="0.9"/>
+<hole x="62.2" y="68.7" drill="0.9"/>
+<hole x="62.2" y="68.6" drill="0.9"/>
+<hole x="62.2" y="68.5" drill="0.9"/>
+<hole x="67.1" y="72.2" drill="0.9"/>
+<hole x="67.2" y="72.2" drill="0.9"/>
+<hole x="67.3" y="72.2" drill="0.9"/>
+<hole x="67.4" y="72.2" drill="0.9"/>
+<hole x="67.5" y="72.2" drill="0.9"/>
+<hole x="67.6" y="72.2" drill="0.9"/>
+<hole x="67.7" y="72.2" drill="0.9"/>
+<hole x="67.8" y="72.2" drill="0.9"/>
+<hole x="67.9" y="72.2" drill="0.9"/>
+<hole x="66.9" y="72.2" drill="0.9"/>
+<hole x="66.8" y="72.2" drill="0.9"/>
+<hole x="66.7" y="72.2" drill="0.9"/>
+<hole x="66.6" y="72.2" drill="0.9"/>
+<hole x="66.5" y="72.2" drill="0.9"/>
+<hole x="66.4" y="72.2" drill="0.9"/>
+<hole x="66.3" y="72.2" drill="0.9"/>
+<hole x="66.2" y="72.2" drill="0.9"/>
+<hole x="66.1" y="72.2" drill="0.9"/>
+<hole x="66" y="72.2" drill="0.9"/>
+<hole x="68" y="72.2" drill="0.9"/>
+<hole x="68" y="66.4" drill="0.9"/>
+<hole x="66" y="66.4" drill="0.9"/>
+<hole x="62.2" y="68.4" drill="0.9"/>
+<hole x="62.2" y="70.4" drill="0.9"/>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -1701,72 +1761,6 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <vertex x="-0.15" y="4.75"/>
 <vertex x="14.85" y="4.75"/>
 </polygon>
-<hole x="10.7" y="-4.8" drill="0.9"/>
-<hole x="10.8" y="-4.8" drill="0.9"/>
-<hole x="10.9" y="-4.8" drill="0.9"/>
-<hole x="11" y="-4.8" drill="0.9"/>
-<hole x="11.1" y="-4.8" drill="0.9"/>
-<hole x="11.2" y="-4.8" drill="0.9"/>
-<hole x="11.3" y="-4.8" drill="0.9"/>
-<hole x="11.4" y="-4.8" drill="0.9"/>
-<hole x="11.5" y="-4.8" drill="0.9"/>
-<hole x="11.6" y="-4.8" drill="0.9"/>
-<hole x="11.7" y="-4.8" drill="0.9"/>
-<hole x="10.5" y="-4.8" drill="0.9"/>
-<hole x="10.4" y="-4.8" drill="0.9"/>
-<hole x="10.3" y="-4.8" drill="0.9"/>
-<hole x="10.2" y="-4.8" drill="0.9"/>
-<hole x="10.1" y="-4.8" drill="0.9"/>
-<hole x="10" y="-4.8" drill="0.9"/>
-<hole x="9.9" y="-4.8" drill="0.9"/>
-<hole x="9.8" y="-4.8" drill="0.9"/>
-<hole x="9.7" y="-4.8" drill="0.9"/>
-<hole x="9.6" y="-4.8" drill="0.9"/>
-<hole x="9.5" y="-4.8" drill="0.9"/>
-<hole x="13.6" y="-0.1" drill="0.9"/>
-<hole x="13.6" y="-0.2" drill="0.9"/>
-<hole x="13.6" y="-0.3" drill="0.9"/>
-<hole x="13.6" y="-0.4" drill="0.9"/>
-<hole x="13.6" y="-0.5" drill="0.9"/>
-<hole x="13.6" y="-0.6" drill="0.9"/>
-<hole x="13.6" y="-0.7" drill="0.9"/>
-<hole x="13.6" y="-0.8" drill="0.9"/>
-<hole x="13.6" y="-0.9" drill="0.9"/>
-<hole x="13.6" y="-1" drill="0.9"/>
-<hole x="13.6" y="-1.1" drill="0.9"/>
-<hole x="13.6" y="0.1" drill="0.9"/>
-<hole x="13.6" y="0.2" drill="0.9"/>
-<hole x="13.6" y="0.3" drill="0.9"/>
-<hole x="13.6" y="0.4" drill="0.9"/>
-<hole x="13.6" y="0.5" drill="0.9"/>
-<hole x="13.6" y="0.6" drill="0.9"/>
-<hole x="13.6" y="0.7" drill="0.9"/>
-<hole x="13.6" y="0.8" drill="0.9"/>
-<hole x="13.6" y="0.9" drill="0.9"/>
-<hole x="13.6" y="1" drill="0.9"/>
-<hole x="13.6" y="1.1" drill="0.9"/>
-<hole x="7.8" y="-0.1" drill="0.9"/>
-<hole x="7.8" y="-0.2" drill="0.9"/>
-<hole x="7.8" y="-0.3" drill="0.9"/>
-<hole x="7.8" y="-0.4" drill="0.9"/>
-<hole x="7.8" y="-0.5" drill="0.9"/>
-<hole x="7.8" y="-0.6" drill="0.9"/>
-<hole x="7.8" y="-0.7" drill="0.9"/>
-<hole x="7.8" y="-0.8" drill="0.9"/>
-<hole x="7.8" y="-0.9" drill="0.9"/>
-<hole x="7.8" y="-1" drill="0.9"/>
-<hole x="7.8" y="-1.1" drill="0.9"/>
-<hole x="7.8" y="0.5" drill="0.9"/>
-<hole x="7.8" y="0.1" drill="0.9"/>
-<hole x="7.8" y="0.2" drill="0.9"/>
-<hole x="7.8" y="0.3" drill="0.9"/>
-<hole x="7.8" y="0.4" drill="0.9"/>
-<hole x="7.8" y="0.6" drill="0.9"/>
-<hole x="7.8" y="0.7" drill="0.9"/>
-<hole x="7.8" y="0.8" drill="0.9"/>
-<hole x="7.8" y="0.9" drill="0.9"/>
-<hole x="7.8" y="1" drill="0.9"/>
-<hole x="7.8" y="1.1" drill="0.9"/>
 </package>
 </packages>
 <packages3d>
@@ -2035,6 +2029,10 @@ design rules under a new name.</description>
 <vertex x="85" y="83"/>
 </polygon>
 <via x="75.5" y="44.5" extent="1-16" drill="0.508"/>
+<via x="62" y="49.5" extent="1-16" drill="0.508"/>
+<via x="14.5" y="28" extent="1-16" drill="0.508"/>
+<via x="14" y="73.5" extent="1-16" drill="0.508"/>
+<via x="59.5" y="75" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="VCCL">
 <contactref element="LINEAR_R" pad="3"/>
@@ -2110,14 +2108,14 @@ design rules under a new name.</description>
 <wire x1="33.92" y1="43.54" x2="34.11" y2="43.73" width="0.762" layer="1"/>
 <wire x1="28" y1="43.54" x2="20.54" y2="43.54" width="0.762" layer="1"/>
 <wire x1="18" y1="66.08" x2="25.92" y2="74" width="0.762" layer="1"/>
-<wire x1="53" y1="74" x2="25.92" y2="74" width="0.762" layer="1"/>
-<wire x1="53" y1="74" x2="67.5" y2="59.5" width="0.762" layer="1"/>
-<wire x1="67.5" y1="59.5" x2="67.58" y2="59.42" width="0.762" layer="1"/>
-<wire x1="51.89" y1="43.73" x2="67.58" y2="59.42" width="0.762" layer="1"/>
-<via x="67.5" y="59.5" extent="1-16" drill="0.508"/>
-<wire x1="67.5" y1="59.5" x2="69.5" y2="59.5" width="0.762" layer="16"/>
-<wire x1="71" y1="61" x2="67" y2="66.4" width="0.762" layer="16"/>
-<wire x1="69.5" y1="59.5" x2="71" y2="61" width="0.762" layer="16"/>
+<wire x1="25.92" y1="74" x2="53" y2="74" width="0.762" layer="1"/>
+<wire x1="51.89" y1="43.73" x2="67" y2="58.84" width="0.762" layer="1"/>
+<wire x1="67" y1="58.84" x2="67" y2="66.4" width="0.762" layer="1"/>
+<wire x1="53" y1="74" x2="56.5" y2="70.5" width="0.762" layer="1"/>
+<wire x1="64.9" y1="64.3" x2="67" y2="66.4" width="0.762" layer="1"/>
+<wire x1="56.5" y1="70.5" x2="56.5" y2="67.7" width="0.762" layer="1"/>
+<wire x1="56.5" y1="67.7" x2="59.9" y2="64.3" width="0.762" layer="1"/>
+<wire x1="59.9" y1="64.3" x2="64.9" y2="64.3" width="0.762" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="UNL2803A_O" pad="11"/>
@@ -2310,18 +2308,6 @@ design rules under a new name.</description>
 <contactref element="SGN_A" pad="8"/>
 <wire x1="51.89" y1="67" x2="51.89" y2="60.83" width="0.762" layer="1"/>
 <wire x1="51.89" y1="60.83" x2="51.91" y2="60.81" width="0.762" layer="1"/>
-</signal>
-<signal name="GND1">
-<via x="62" y="49.5" extent="1-16" drill="0.508"/>
-</signal>
-<signal name="GND2">
-<via x="14.5" y="28" extent="1-16" drill="0.508"/>
-</signal>
-<signal name="GND3">
-<via x="14" y="73.5" extent="1-16" drill="0.508"/>
-</signal>
-<signal name="GND4">
-<via x="59.5" y="75" extent="1-16" drill="0.508"/>
 </signal>
 </signals>
 </board>
