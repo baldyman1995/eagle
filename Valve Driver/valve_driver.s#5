@@ -7805,11 +7805,7 @@ Source: DCJ0202.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<<<<<<< HEAD
 <part name="BYPASSC_O" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1">
-=======
-<part name="BYPASSC_O" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u">
->>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -7817,36 +7813,21 @@ Source: DCJ0202.pdf</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SGN_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="SGN_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<<<<<<< HEAD
 <part name="BYPASSC_A" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1">
-=======
-<part name="BYPASSC_A" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u">
->>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="LINEAR_R" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="05"/>
-<<<<<<< HEAD
 <part name="IN_C" library="adafruit" deviceset="C-US" device="050-024X044"/>
 <part name="OUT_C" library="adafruit" deviceset="C-US" device="050-024X044"/>
 <part name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X2" device="" package3d_urn="urn:adsk.eagle:package:22455/2"/>
 <part name="ZENER_A" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N821" device="" package3d_urn="urn:adsk.eagle:package:43342/1" value="">
-=======
-<part name="IN_C" library="adafruit" deviceset="C-US" device="050-024X044" value="0.33u"/>
-<part name="OUT_C" library="adafruit" deviceset="C-US" device="050-024X044" value="0.1u"/>
-<part name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X2" device="" package3d_urn="urn:adsk.eagle:package:22455/2"/>
-<part name="ZENER_A" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N821" device="" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v">
->>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<<<<<<< HEAD
 <part name="ZENER_O" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N821" device="" package3d_urn="urn:adsk.eagle:package:43342/1" value="">
-=======
-<part name="ZENER_O" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N821" device="" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v">
->>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>

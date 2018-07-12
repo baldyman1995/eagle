@@ -2111,15 +2111,12 @@ design rules under a new name.</description>
 <wire x1="28" y1="43.54" x2="20.54" y2="43.54" width="0.762" layer="1"/>
 <wire x1="18" y1="66.08" x2="25.92" y2="74" width="0.762" layer="1"/>
 <<<<<<< HEAD
-<<<<<<< HEAD
 <wire x1="61.1" y1="65.9" x2="71" y2="65.9" width="0.762" layer="1"/>
 <wire x1="25.92" y1="74" x2="53" y2="74" width="0.762" layer="1"/>
 <wire x1="53" y1="74" x2="61.1" y2="65.9" width="0.762" layer="1"/>
 <wire x1="71" y1="65.9" x2="71" y2="62.84" width="0.762" layer="1"/>
 <wire x1="71" y1="62.84" x2="51.89" y2="43.73" width="0.762" layer="1"/>
 =======
-=======
->>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 <wire x1="53" y1="74" x2="25.92" y2="74" width="0.762" layer="1"/>
 <wire x1="53" y1="74" x2="67.5" y2="59.5" width="0.762" layer="1"/>
 <wire x1="67.5" y1="59.5" x2="67.58" y2="59.42" width="0.762" layer="1"/>
@@ -2128,10 +2125,7 @@ design rules under a new name.</description>
 <wire x1="67.5" y1="59.5" x2="69.5" y2="59.5" width="0.762" layer="16"/>
 <wire x1="71" y1="61" x2="57.4" y2="69" width="0.762" layer="16"/>
 <wire x1="69.5" y1="59.5" x2="71" y2="61" width="0.762" layer="16"/>
-<<<<<<< HEAD
 >>>>>>> 2b016f8af1e7fa1f07ba3e78c78141759e9f24ab
-=======
->>>>>>> 3a80bb105fcb5edf048fd05ad842ae0e7e0e9c44
 </signal>
 <signal name="N$1">
 <contactref element="UNL2803A_O" pad="11"/>
