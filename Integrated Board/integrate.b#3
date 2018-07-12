@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1531,6 +1531,13 @@ design rules under a new name.</description>
 <contactref element="OK4" pad="4"/>
 <contactref element="OK4" pad="6"/>
 <contactref element="OK4" pad="8"/>
+<contactref element="SOCKET_LEFT" pad="21"/>
+<polygon width="0.762" layer="16">
+<vertex x="194" y="-2"/>
+<vertex x="131" y="-2"/>
+<vertex x="131" y="123"/>
+<vertex x="194" y="123"/>
+</polygon>
 </signal>
 <signal name="GNDH">
 <contactref element="JP3" pad="3"/>
@@ -1912,9 +1919,6 @@ design rules under a new name.</description>
 <wire x1="63" y1="9" x2="63" y2="17.81" width="0.762" layer="1"/>
 <wire x1="74.11" y1="7" x2="65" y2="7" width="0.762" layer="1"/>
 <wire x1="65" y1="7" x2="63" y2="9" width="0.762" layer="1"/>
-</signal>
-<signal name="N$45">
-<contactref element="SOCKET_LEFT" pad="21"/>
 </signal>
 <signal name="N$44">
 <contactref element="R31" pad="1"/>

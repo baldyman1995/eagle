@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5130,6 +5130,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="170.434" y1="-14.986" x2="170.434" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="170.434" y1="-17.78" x2="171.45" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="171.45" y1="-17.78" x2="171.45" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="-53.34" x2="109.22" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="171.45" y="-17.78"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -5138,6 +5142,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="154.686" y1="-14.986" x2="154.686" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="154.686" y1="-17.78" x2="154.94" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-17.78" x2="154.94" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-48.26" x2="106.68" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="154.94" y="-17.78"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="106.68" y1="-48.26" x2="106.68" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -5146,6 +5155,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="-15.748" x2="135.89" y2="-15.748" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="-15.748" x2="135.89" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="-17.78" x2="135.89" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="-43.18" x2="104.14" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="135.89" y="-17.78"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="104.14" y1="-43.18" x2="104.14" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -5154,6 +5168,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="119.126" y1="-15.748" x2="118.11" y2="-15.748" width="0.1524" layer="91"/>
 <wire x1="118.11" y1="-15.748" x2="118.11" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="-17.78" x2="118.11" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="-40.64" x2="101.6" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="118.11" y="-17.78"/>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="101.6" y1="-40.64" x2="101.6" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -5162,6 +5181,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="101.346" y1="-15.748" x2="100.33" y2="-15.748" width="0.1524" layer="91"/>
 <wire x1="100.33" y1="-15.748" x2="100.33" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="-17.78" x2="99.06" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="100.33" y="-17.78"/>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="99.06" y1="-17.78" x2="99.06" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -5170,6 +5193,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="84.328" y1="-16.002" x2="83.82" y2="-16.002" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-16.002" x2="83.82" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-17.78" x2="83.82" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="83.82" y="-17.78"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="96.52" y1="-38.1" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -5178,6 +5206,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="67.056" y1="-14.732" x2="66.04" y2="-14.732" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-14.732" x2="66.04" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-17.78" x2="66.04" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="66.04" y="-17.78"/>
+<wire x1="66.04" y1="-40.64" x2="93.98" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="93.98" y1="-40.64" x2="93.98" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -5185,6 +5218,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="OK4" gate="D" pin="COL"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="49.53" y1="-15.494" x2="49.53" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="-17.78" x2="49.53" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="-43.18" x2="91.44" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="49.53" y="-17.78"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="91.44" y1="-43.18" x2="91.44" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
