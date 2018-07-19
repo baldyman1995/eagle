@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="30" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="30" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4441,9 +4441,11 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="2IN+"/>
 <wire x1="335.28" y1="184.15" x2="271.78" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="184.15" x2="271.78" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SOCKET_RIGHT" gate="A" pin="12"/>
-<wire x1="271.78" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
 <label x="332.74" y="187.96" size="1.778" layer="95"/>
+<wire x1="271.78" y1="76.2" x2="228.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="76.2" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="SOCKET_RIGHT" gate="A" pin="10"/>
+<wire x1="228.6" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S2" class="0">

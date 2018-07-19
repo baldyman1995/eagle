@@ -1965,8 +1965,8 @@ design rules under a new name.</description>
 <polygon width="0.762" layer="1">
 <vertex x="-1.75" y="81"/>
 <vertex x="-1.75" y="-3"/>
-<vertex x="117.5" y="-3"/>
-<vertex x="117.5" y="81"/>
+<vertex x="82" y="-3"/>
+<vertex x="82" y="81"/>
 </polygon>
 </signal>
 <signal name="VCCL">

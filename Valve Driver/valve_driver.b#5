@@ -1904,7 +1904,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BYPASSC_O" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="" x="50.5" y="16" rot="R270">
+<element name="BYPASSC_O" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u" x="50.5" y="16" rot="R270">
 <attribute name="MF" value="" x="50.5" y="16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="50.5" y="16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="50.5" y="16" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1921,21 +1921,21 @@ design rules under a new name.</description>
 </element>
 <element name="SGN_O" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="69" y="5" rot="R180"/>
 <element name="SGN_A" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X08" package3d_urn="urn:adsk.eagle:package:22409/2" value="" x="69" y="65"/>
-<element name="BYPASSC_A" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="" x="87" y="54" rot="R90">
+<element name="BYPASSC_A" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:26162/1" value="0.33u" x="87" y="54" rot="R90">
 <attribute name="MF" value="" x="87" y="54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="87" y="54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="87" y="54" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LINEAR_R" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" package3d_urn="urn:adsk.eagle:package:16417/1" value="7805TV" x="29" y="42" rot="R180"/>
-<element name="IN_C" library="adafruit" package="C050-024X044" value="" x="40" y="42" rot="R270"/>
-<element name="OUT_C" library="adafruit" package="C050-024X044" value="" x="18" y="42" rot="R270"/>
+<element name="IN_C" library="adafruit" package="C050-024X044" value="0.33u" x="40" y="42" rot="R270"/>
+<element name="OUT_C" library="adafruit" package="C050-024X044" value="0.1u" x="18" y="42" rot="R270"/>
 <element name="PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X02" package3d_urn="urn:adsk.eagle:package:22455/2" value="" x="10" y="60" rot="R90"/>
-<element name="ZENER_A" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="" x="93" y="51" rot="R270">
+<element name="ZENER_A" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v" x="93" y="51" rot="R270">
 <attribute name="MF" value="" x="93" y="51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="93" y="51" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="93" y="51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="ZENER_O" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="" x="45" y="19" rot="R90">
+<element name="ZENER_O" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35Z10" package3d_urn="urn:adsk.eagle:package:43342/1" value="18v" x="45" y="19" rot="R90">
 <attribute name="MF" value="" x="45" y="19" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="45" y="19" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="45" y="19" size="1.778" layer="27" rot="R90" display="off"/>
