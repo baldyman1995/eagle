@@ -1977,7 +1977,7 @@ design rules under a new name.</description>
 <wire x1="15.46" y1="43.54" x2="7" y2="43.54" width="0.762" layer="1"/>
 <wire x1="7" y1="43.54" x2="7" y2="58.46" width="0.762" layer="1"/>
 <wire x1="7" y1="58.46" x2="7.27" y2="58.73" width="0.762" layer="1"/>
-<wire x1="7" y1="58.46" x2="4.73" y2="58.73" width="0" layer="19" extent="1-1"/>
+<wire x1="4.73" y1="58.73" x2="7.27" y2="58.73" width="0.762" layer="1"/>
 </signal>
 <signal name="COM2">
 <contactref element="UNL2803A_O" pad="10"/>
